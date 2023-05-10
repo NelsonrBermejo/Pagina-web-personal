@@ -34,7 +34,8 @@ body {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background-color: yellowgreen;
+     background-color: transparent; 
+    /* background-color: yellowgreen; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,13 +43,15 @@ body {
 }
 
 .logo {
-    font-size: 2.5rem;
+    /**font logo name*/
+    font-size: 2rem;
     color: var(--text-color);
     font-weight: 600;
 }
 
 .navbar a {
-    font-size: 1.7rem;
+    /**font nav*/
+    font-size: 1.5rem;
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
@@ -66,3 +69,45 @@ body {
     cursor: pointer;
     display: none;
 }
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+}
+
+.home-content {
+    max-width: 60rem;
+}
+
+.home-content h1 {
+    /**font greeting*/
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content .text-animate {
+    position: relative;
+    width: 32.8rem;
+}
+
+.home-content .text-animate h3 {
+    /**front frontend developer*/
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px var(--main-color);
+}
+
+.home-content p {
+    /**font lorem*/
+    font-size: 1.2rem;
+    margin: 2rem 0 4rem;
+}
+
