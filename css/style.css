@@ -52,4 +52,9 @@ body {
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
 }
