@@ -217,3 +217,19 @@ section {
 .home-sci a:hover::before {
     width: 100%;
 }
+
+/**IMG*/
+.home-imgHover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52%;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+}
+
+.home-imgHover:hover {
+    background: var(--bg-color);
+    opacity: .1;
+}
