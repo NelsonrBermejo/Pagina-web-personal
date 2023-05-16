@@ -729,4 +729,8 @@ span {
         transition-delay: .25s;
     }
 
+    .home-imgHover {
+        pointer-events: none;
+    }
+
 }
