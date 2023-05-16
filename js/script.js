@@ -1,5 +1,11 @@
 // toggle icon
+//#menu-icon = id=menu-icon
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+}
 
 
 // scroll sections
