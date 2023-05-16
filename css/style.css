@@ -450,3 +450,10 @@ span {
     padding: .5rem;
     margin: 1rem 0;
 }
+
+.skills-content .progress .bar span {
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background: var(--main-color);
+}
